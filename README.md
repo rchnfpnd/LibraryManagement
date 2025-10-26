@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -60,28 +60,46 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
+
 # Library Management System
+# 📚 Library Management System
+
 
 A simple Library Management System project for managing books, members, and transactions.
 
-## 📚 Features
+---
+
+## ✨ Features
 - Add, edit, and delete books
 - Track borrowed and returned books
-- Manage members and accounts
+- Manage member records and user accounts
 - Search and filter library records
+- Simple and user-friendly interface
+
+---
 
 ## 🛠️ Technologies Used
-- php, CSS, JavaScript
-- PHP & MySQL (for backend and database)
+- **PHP**, **HTML**, **CSS**, **JavaScript**
+- **MySQL** (for database management)
+
+---
 
 ## 🚀 How to Run
-1. Download or clone the repository.
-2. Move the folder to your `htdocs` directory (if using XAMPP).
+1. Download or clone the repository:
+   ```bash
+   git clone https://github.com/rchnfpnd/LibraryManagement.git
+   ```
+2. Move the project folder to your `htdocs` directory (if using XAMPP).
 3. Create a MySQL database named `library_db`.
-4. Import the provided SQL file into phpMyAdmin.
-5. Open your browser and go to `http://localhost/LibraryManagement`.
+4. Import the provided `.sql` file using phpMyAdmin.
+5. Open your browser and navigate to:
+   ```
+   http://localhost/LibraryManagement
+   ```
+
+---
 
 ## 👩‍💻 Author
 Developed by rchnfpnd
->>>>>>> 3ab2b4d183ad6766194f5aa3e94a40086b52fae9
+
+**Developed by:** [@rchnfpnd](https://github.com/rchnfpnd)
