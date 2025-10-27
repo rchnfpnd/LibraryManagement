@@ -101,5 +101,4 @@ A simple Library Management System project for managing books, members, and tran
 
 ## 👩‍💻 Author
 Developed by rchnfpnd
-
 **Developed by:** [@rchnfpnd](https://github.com/rchnfpnd)
