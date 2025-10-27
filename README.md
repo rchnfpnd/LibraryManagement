@@ -1,82 +1,38 @@
-📚 Library Management System
-📖 Description / Overview
+# 📚 Project Title
+Library Management System
 
-The Library Management System is designed to help organize and manage library operations efficiently. It allows users to record, track, and update book inventories, member information, and borrowing transactions. This system reduces manual work and improves accessibility of records for librarians and students.
+---
 
-🎯 Objectives
+## 📝 Description / Overview
+The **Library Management System** is designed to manage and organize library resources efficiently. It allows users to add, update, search, and remove books while keeping track of borrowers and due dates.
 
-To automate the management of books and library members.
+---
 
-To provide an easy-to-use platform for managing borrow and return transactions.
+## 🎯 Objectives
+- To develop a system that simplifies library management tasks.  
+- To enhance accuracy and accessibility of book records.  
+- To practice CRUD (Create, Read, Update, Delete) operations using a database.  
 
-To ensure accuracy of records and real-time availability of books.
+---
 
-To promote organized and digital record-keeping in library operations.
+## ⚙️ Features / Functionality
+- Add, view, update, and delete book records  
+- Borrower registration and book lending management  
+- Search and filter functionality  
+- Secure login for admin users  
 
-⚙️ Features / Functionality
+---
 
-Add, edit, and delete book records.
+## 💻 Installation Instructions
+1. Clone or download the project repository.  
+2. Import the database file into your local MySQL server.  
+3. Open the project folder in your preferred IDE (e.g., VS Code, XAMPP for PHP).  
+4. Run the system using localhost.  
 
-Manage member registration and borrowing history.
+---
 
-Search and filter books and members.
-
-Track borrowed and returned books.
-
-Generate reports of library activities.
-
-Login system for admin and users (optional).
-
-💻 Installation Instructions
-
-Clone the repository:
-
-git clone https://github.com/rchnfpnd/LibraryManagement.git
-
-
-Open the project folder in your preferred code editor.
-
-Set up your local database (if applicable) using the provided .sql file.
-
-Update your database connection settings in the configuration file.
-
-Run the project using your local server or IDE.
-
-🚀 Usage
-
-Launch the system in your local environment.
-
-Log in using your credentials (if login feature is enabled).
-
-Use the navigation menu to manage books, members, and borrowing transactions.
-
-View, update, or delete records as needed.
-
-🖼️ Screenshots or Code Snippets
-
-Add relevant screenshots here (make sure to upload them to an images/ folder in your repo):
-
-![Screenshot1](images/screenshot1.png)
-![Screenshot2](images/screenshot2.png)
-
-
-Example code snippet:
-
-CREATE TABLE books (
-    book_id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(100) NOT NULL,
-    author VARCHAR(100),
-    category VARCHAR(50),
-    status VARCHAR(20) DEFAULT 'available'
-);
-
-👩‍💻 Contributors
-
-Reachinefee Paneda
-
-Nicole Anne Saplan
-
-📜 License
-
-This project is created for educational purposes only under the course requirements.
-You are free to modify and use it for academic and learning purposes.
+## 🚀 Usage
+1. Log in using the admin account.  
+2. Add books to the library catalog.  
+3. Manage borrowers and track borrowed books.  
+4. Use the search bar to quickly find specific records.  
