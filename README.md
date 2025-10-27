@@ -37,8 +37,21 @@ a web-based application that helps organize and manage essential library operati
    - Search for books.  
    - View all stored data in table format.
 
-## Screenshots
-![Library Dashboard](images/dashboard.png)
+### Sample Code Snippet: Dashboard Controller
+
+```php
+class DashboardController extends Controller
+{
+    public function index()
+    {
+        $booksCount = Book::count();
+        $borrowersCount = Borrower::count();
+        $borrowRecordsCount = BorrowRecord::count();
+
+        return view('dashboard', compact('booksCount', 'borrowersCount', 'borrowRecordsCount'));
+    }
+} 
+
 
 ## Contributors
 - Reachinefee Paneda  
