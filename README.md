@@ -38,7 +38,6 @@ a web-based application that helps organize and manage essential library operati
    - View all stored data in table format.
 
 ### Sample Code Snippet: Dashboard Controller
-
 ```php
 class DashboardController extends Controller
 {
@@ -50,7 +49,8 @@ class DashboardController extends Controller
 
         return view('dashboard', compact('booksCount', 'borrowersCount', 'borrowRecordsCount'));
     }
-} 
+}
+```
 
 
 ## Contributors
