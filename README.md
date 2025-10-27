@@ -1,18 +1,22 @@
 # Library Management System
-The Library Management System is a project designed to help manage and organize books in a library. It allows users to add, search, update, and delete book records efficiently. The system aims to make library operations more systematic and user-friendly.
+a web-based application that helps organize and manage essential library operations. It allows librarians to efficiently handle book inventories and borrower information while maintaining accurate records of borrowing activities. Through its interactive dashboard and CRUD functionality, the system provides a practical and user-friendly platform for digital library management.
 
 ## Objectives
-- To provide a simple and efficient way to manage library records.  
-- To enhance understanding of CRUD (Create, Read, Update, Delete) operations using PHP and MySQL.  
-- To apply web development skills in building a real-world system.  
-- To improve collaboration using Git and GitHub.
+- To provide an efficient and organized system for managing books and borrower records.  
+- To minimize manual record-keeping and reduce human errors in managing library data.  
+- To practice CRUD (Create, Read, Update, Delete) functionalities in a real-world application.  
+- To develop a responsive and easy-to-use web interface using Laravel and MySQL.  
+- To create a dashboard that gives a quick overview of total borrowers, borrower records, and books.
 
-## Features / Functionality
-- Add, view, update, and delete book records.  
-- Search for specific books by title or author.  
-- User-friendly interface with responsive design.  
-- Database integration using MySQL.  
-- Organized dashboard for easy navigation.
+## Features
+- **Dashboard Overview:** Displays the total count of borrowers, borrower records, and books.  
+- **Book Management:** Add, edit, and delete book information.  
+- **Borrower Management:** Add, edit, and delete borrower profiles.  
+- **Borrower Record Management:** Add, edit, and delete records of borrowed and returned books.  
+- **CRUD Functionalities:** Perform create, read, update, and delete operations for all library entities.  
+- **Database Integration:** Secure data storage and retrieval using MySQL.  
+- **Responsive Interface:** User-friendly layout accessible on both desktop and mobile devices.
+
 
 ## Installation Instructions
 1. Download or clone this repository.  
@@ -33,31 +37,12 @@ The Library Management System is a project designed to help manage and organize 
    - Search for books.  
    - View all stored data in table format.
 
-## Screenshots or Code Snippets
-
-### Screenshot Example
+## Screenshots
 ![Library Dashboard](images/dashboard.png)
-
-*(Tip: Place your image file in an `images/` folder in your repository and replace the filename above.)*
-
-### Code Snippet Example
-```php
-<?php
-// Sample PHP code snippet for adding a book
-include('db_connect.php');
-
-$title = $_POST['title'];
-$author = $_POST['author'];
-$query = "INSERT INTO books (title, author) VALUES ('$title', '$author')";
-mysqli_query($conn, $query);
-echo "Book added successfully!";
-?>
-```
 
 ## Contributors
 - Reachinefee Paneda  
 - Nicole Anne Saplan  
 
 ## License
-This project is licensed under the MIT License — you are free to use, modify, and distribute this software as long as proper credit is given.  
-See the LICENSE file for more information.
+This project is developed for educational purposes only. It may be used, studied, and modified by students and teachers for learning and academic purposes. Commercial use is not permitted.
